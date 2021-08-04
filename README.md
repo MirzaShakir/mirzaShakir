@@ -10,7 +10,8 @@ class About extends Me
 		return [
 			'workplace' => [
 				'company' => 'Frequence Software LLP',
-				'position' => 'FullStack Engineer'
+				'position' => 'FullStack Engineer',
+				'startDate' => '18th Feb 2019',
 			]
 		];
 	}
