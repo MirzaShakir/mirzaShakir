@@ -9,9 +9,9 @@ class About extends Me
 	{
 		return [
 			'workplace' => [
-				'company' => 'Frequence Software LLP',
-				'position' => 'Sr. FullStack Engineer',
-				'startDate' => '18th Feb 2019',
+				'company' => 'CraftedQ - Yashi Consulting Pvt. Ltd.',
+				'position' => 'Technical Lead',
+				'startDate' => '21st Oct 2022',
 			]
 		];
 	}
@@ -19,6 +19,13 @@ class About extends Me
 	public function getRecentWorkplaces(): array
 	{
 		return [
+			'frequence' = [
+				'company' => 'Frequence Software LLP',
+				'position' => 'Sr. FullStack Engineer',
+				'startDate' => '18th Feb 2019',
+				'endDate' => '20th Oct 2022'
+			]
+			
 			'xento'     => [
 				'company'   => 'Xento Systems Pvt. Ltd.',
 				'position'  => 'Principal Engineer',
