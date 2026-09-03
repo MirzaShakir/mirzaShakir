@@ -9,7 +9,7 @@ class About extends Me
 	{
 		return [
 			'workplace' => [
-				'company' => 'CraftedQ - Yashi Consulting Pvt. Ltd.',
+				'company' => 'Kynetec Data Services Pvt. Ltd.',
 				'position' => 'Technical Lead',
 				'startDate' => '21st Oct 2022',
 			]
@@ -19,6 +19,12 @@ class About extends Me
 	public function getRecentWorkplaces(): array
 	{
 		return [
+			'ycspl' = [
+			'company' => 'CraftedQ - Yashi Consulting Pvt. Ltd.',
+			'position' => 'Tech Lead',
+			'startDate' => '21st Oct 2022',
+			'endDate' => '30th Sept 2023'
+			],
 			'frequence' = [
 				'company' => 'Frequence Software LLP',
 				'position' => 'Sr. FullStack Engineer',
